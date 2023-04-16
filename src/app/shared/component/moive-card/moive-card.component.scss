@@ -1,0 +1,40 @@
+img{
+    height: 25rem;
+    width: 100%;
+    // object-fit: contain;
+}
+
+
+.imgfig{
+    position: relative;
+    overflow: hidden;
+
+}
+.card-text{
+    white-space: nowrap;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.rating{
+    background-color: #ccc;
+    
+    
+}
+
+.overview{
+position: absolute;
+bottom: 0;
+left: 0;
+overflow: auto;
+transform: translateY(108%);
+height: 80%;
+transition: all 0.3s ease-in-out;
+text-align: center;
+background-color: #fff;
+}
+
+.card:hover .overview{
+    transform: translateY(0);
+}
